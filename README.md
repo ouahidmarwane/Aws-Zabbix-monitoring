@@ -173,7 +173,8 @@ Zabbix a été déployé à l'aide de Docker Compose avec :
 
 ### Figure 9 : Contenu du fichier docker-compose.yml
 
-![Docker Compose](images/docker%20compose.png)
+<img width="1862" height="935" alt="docker yaml new" src="https://github.com/user-attachments/assets/a226df30-3d43-4833-ab8e-eaa929de5fce" />
+
 
 *Figure 9 : Contenu du fichier docker-compose.yml*
 
