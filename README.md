@@ -1,8 +1,6 @@
 <div align="center">
-
-![Logo Mundiapolis](images/logo-mundiapolis.svg)
-
-</div>
+   
+   </div><img width="500" height="200" alt="image21" src="https://github.com/user-attachments/assets/9c12f7c3-c9dd-48ae-8bc5-38d1e917dd09" />
 
 <div align="center">
 
