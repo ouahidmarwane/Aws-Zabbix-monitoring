@@ -489,6 +489,8 @@ Procédure (interface Zabbix) :
 
 Le statut **ZBX** vert valide la connectivité agent et la collecte des métriques.
 
+> **Note importante** : En cas de problème Zabbix Server (statut DOWN), tous les agents resteront en statut **"Unknown"** même si la configuration est correcte. Consultez la section 8.3 pour les solutions de dépannage.
+
 ![Figure 26 : Ajout des hôtes réussi](images/zabbix%20interface.png)
 
 *Figure 26 : Ajout des hôtes réussi*
@@ -562,7 +564,56 @@ docker compose up -d
 
 - Les conteneurs sont configurés avec `restart: unless-stopped` pour améliorer la résilience après reboot.
 
-## 8.3 Limitations du Learner Lab (région, arrêt des instances, budget)
+## 8.3 Zabbix Server "DOWN" et migration MySQL → PostgreSQL
+
+**Symptômes rencontrés :**
+- Zabbix Server reste en statut **"DOWN"** ;
+- Tous les agents restent en statut **"Unknown"** ;
+- Impossible de collecter les données des clients Linux et Windows.
+
+**Contexte :**
+Une tentative de migration de la base de données MySQL vers PostgreSQL a été effectuée, mais a échoué avec perte d'accès au dashboard Zabbix.
+
+**Causes probables :**
+- Problème de connectivité entre les conteneurs Docker ;
+- Configuration incorrecte du docker-compose après migration ;
+- Port **10051** non accessible ou mal configuré ;
+- Service Zabbix Server crash ou non démarré correctement.
+
+**Solutions à appliquer :**
+1. Vérifier les logs du conteneur serveur :
+```bash
+docker logs zabbix-server
+docker logs zabbix-postgres
+```
+
+2. Vérifier la connectivité entre conteneurs :
+```bash
+docker network inspect bridge
+```
+
+3. Vérifier le statut des ports :
+```bash
+netstat -an | grep 10051
+```
+
+4. Redémarrer le stack complet :
+```bash
+docker compose down
+docker compose up -d
+```
+
+5. Attendre quelques minutes que le serveur soit complètement initialisé avant d'ajouter les hôtes.
+
+**Capture du problème :**
+
+![Zabbix Server DOWN - Problème de connexion](images/zabbix-server-down-problem.svg)
+
+*Figure 31 : Statut des hôtes avec Zabbix Server DOWN - Tous les agents restent Unknown*
+
+---
+
+## 8.4 Limitations du Learner Lab (région, arrêt des instances, budget)
 
 Contraintes critiques à respecter :
 - **Région** : utiliser **us-east-1 (N. Virginia)**.
