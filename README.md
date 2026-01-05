@@ -19,12 +19,6 @@
 
 </div>
 
-## Architecture générale
-
-![Architecture Infrastructure Cloud](images/architecture-diagram.svg)
-
-*Architecture de supervision centralisée avec déploiement Zabbix conteneurisé*
-
 ---
 
 ## 1. Introduction
