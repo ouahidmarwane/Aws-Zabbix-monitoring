@@ -201,7 +201,8 @@ http://100.49.103.108:80
 ```
 
 ### Figure 11 : Interface Zabbix
-<img width="1833" height="979" alt="Dashboard zabbix" src="https://github.com/user-attachments/assets/a9fad90a-e31c-48f9-97bd-f92edcac20f5" />
+<img width="1837" height="969" alt="dashboard zabbix new pic" src="https://github.com/user-attachments/assets/da0f3dab-1c59-4299-b6ff-ba200e3e2ee1" />
+
 
 
 
@@ -255,8 +256,9 @@ Paramètres clés :
 
 *Figure 14 : Configuration IP du serveur Zabbix sur Client Windows*
 
-je l'ai changer apres l'activation du IP elastique:100.49.103.108
-<img width="605" height="340" alt="insertion ip serveur zabbix" src="https://github.com/user-attachments/assets/817eaa04-894c-4c8c-9218-aad4079ba65f" />
+je l'ai changer apres l'activation du IP elastique:172.31.72.251
+<img width="1464" height="774" alt="ip windows" src="https://github.com/user-attachments/assets/3f63ed5d-6d70-4e00-9ee4-b7331f870f9c" />
+
 
 
 
@@ -267,12 +269,17 @@ je l'ai changer apres l'activation du IP elastique:100.49.103.108
 
 ### Figure 15 : Hôtes Zabbix
 
-<img width="1839" height="980" alt="hosts" src="https://github.com/user-attachments/assets/ff5a4c16-3779-4313-89cc-15cd2ac986b3" />
+<img width="1842" height="973" alt="hosts new pic" src="https://github.com/user-attachments/assets/68b8a7ed-a6fe-422f-a7f2-51464d4246d1" />
+
 
 
 *Figure 15 : Interface de création des hôtes dans Zabbix*
 
 Cette capture d'écran montre l'interface utilisée pour ajouter un nouvel hôte dans Zabbix. Les options permettent de spécifier le nom de l'hôte, l'interface de communication avec l'agent Zabbix, et les modèles à appliquer.
+
+Et on peux voir les problemes on temps reel:
+<img width="1168" height="495" alt="current problems" src="https://github.com/user-attachments/assets/7e6c410f-c341-4005-820c-29a583ff95f8" />
+
 
 ---
 
