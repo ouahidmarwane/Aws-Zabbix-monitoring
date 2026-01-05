@@ -1,0 +1,12 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="url(#grad)"/>
+  <text x="150" y="60" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Infrastructure Cloud</text>
+  <text x="150" y="100" font-size="16" fill="white" text-anchor="middle">Zabbix AWS Monitoring</text>
+  <text x="150" y="140" font-size="12" fill="white" text-anchor="middle">Linux + Windows Supervision</text>
+</svg>
