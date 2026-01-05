@@ -129,19 +129,22 @@ Une Internet Gateway a été créée et attachée au VPC afin de permettre l'acc
 
 ### Figure 5 : Groupe de sécurité Zabbix server
 
-![Security Group Zabbix](images/groupe%20security%20pour%20Zabbix.png)
+<img width="1831" height="873" alt="security groupe zabbix" src="https://github.com/user-attachments/assets/7362fbc8-cdef-418f-8b0f-34c4725bce95" />
+
 
 *Figure 5 : Groupe de sécurité Zabbix server*
 
 ### Figure 6 : Groupe de sécurité Client Linux
+<img width="1845" height="823" alt="security groupe linux" src="https://github.com/user-attachments/assets/8d3f898a-9115-49a5-acf4-b060e9af0950" />
 
-![Security Group Linux](images/groupe%20security%20pour%20Zabbix.png)
+
 
 *Figure 6 : Groupe de sécurité Client Linux*
 
 ### Figure 7 : Groupe de sécurité Client Windows
+<img width="1833" height="827" alt="security groupe windows" src="https://github.com/user-attachments/assets/fadcfaf0-8c3e-4b33-aa49-52ce96b00e4e" />
 
-![Security Group Windows](images/groupe%20security%20pour%20Zabbix.png)
+
 
 *Figure 7 : Groupe de sécurité Client Windows*
 
@@ -221,8 +224,9 @@ Paramètres clés :
 - `Hostname` : Nom de l'hôte
 
 ### Figure 12 : Service agent actif
+<img width="1840" height="873" alt="cmd final client linux" src="https://github.com/user-attachments/assets/ad46bdb6-6164-4f28-be90-caf48909b2df" />
 
-![Linux Agent](images/installation%20de%20zabbix%20agent.png)
+
 
 *Figure 12 : Service actif (systemctl status zabbix-agent)*
 
@@ -243,10 +247,16 @@ Paramètres clés :
 *Figure 13 : Connexion RDP au client Windows*
 
 ### Figure 14 : Insertion de l'IP du serveur Zabbix
+<img width="1911" height="1076" alt="installation de zabbix agent" src="https://github.com/user-attachments/assets/6a000016-3f1e-4ec9-bd82-468e0ef9520d" />
 
-![Windows Agent Config](images/rdp%20windows%20client.png)
+
 
 *Figure 14 : Configuration IP du serveur Zabbix sur Client Windows*
+
+je l'ai changer apres l'activation du IP elastique:100.49.103.108
+<img width="605" height="340" alt="insertion ip serveur zabbix" src="https://github.com/user-attachments/assets/9a729351-4f70-4afb-b41c-8149a3208fb6" />
+
+
 
 ---
 
