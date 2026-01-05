@@ -1,0 +1,159 @@
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1e3d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3a52;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0088ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .box { stroke: #00d4ff; stroke-width: 2; fill: rgba(0,132,255,0.1); }
+      .box-dark { stroke: #0088ff; stroke-width: 2; fill: rgba(0,100,200,0.15); }
+      .title-main { font-family: Arial, sans-serif; font-size: 32px; font-weight: bold; fill: white; }
+      .title-sub { font-family: Arial, sans-serif; font-size: 18px; fill: #00d4ff; }
+      .label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white; }
+      .label-small { font-family: Arial, sans-serif; font-size: 12px; fill: #a0d0ff; }
+      .label-desc { font-family: Arial, sans-serif; font-size: 11px; fill: #80c0ff; }
+      .badge { font-family: Arial, sans-serif; font-size: 11px; fill: white; font-weight: bold; }
+      .arrow { stroke: #00d4ff; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#00d4ff" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#gradBg)"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0088ff" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="700" fill="url(#grid)" />
+  
+  <!-- Header bar -->
+  <rect width="1200" height="8" fill="url(#gradHeader)"/>
+  
+  <!-- Main title -->
+  <text x="60" y="70" class="title-main">Infrastructure cloud de supervision centralisée</text>
+  <text x="60" y="100" class="title-sub">Déploiement Zabbix conteneurisé (Docker) — Parc hybride Linux & Windows</text>
+  
+  <!-- Technology badges -->
+  <g>
+    <!-- AWS -->
+    <rect x="60" y="120" width="90" height="35" rx="18" class="box-dark"/>
+    <text x="105" y="143" class="badge" text-anchor="middle">AWS</text>
+    
+    <!-- Zabbix -->
+    <rect x="180" y="120" width="90" height="35" rx="18" class="box-dark"/>
+    <text x="225" y="143" class="badge" text-anchor="middle">Zabbix</text>
+    
+    <!-- Docker -->
+    <rect x="300" y="120" width="90" height="35" rx="18" class="box-dark"/>
+    <text x="345" y="143" class="badge" text-anchor="middle">Docker</text>
+    
+    <!-- Monitoring -->
+    <rect x="420" y="120" width="90" height="35" rx="18" class="box-dark"/>
+    <text x="465" y="143" class="badge" text-anchor="middle">Monitoring</text>
+  </g>
+  
+  <!-- Main VPC Box -->
+  <rect x="50" y="180" width="1100" height="460" class="box" rx="10"/>
+  
+  <!-- VPC Label -->
+  <text x="80" y="210" class="label">VPC + Subnet public</text>
+  
+  <!-- Zabbix Server Box -->
+  <rect x="80" y="250" width="280" height="180" class="box-dark" rx="8"/>
+  <text x="220" y="280" class="label" text-anchor="middle">Zabbix Server</text>
+  
+  <rect x="100" y="295" width="240" height="3" fill="#0088ff"/>
+  
+  <text x="220" y="320" class="label-small" text-anchor="middle">Docker Compose</text>
+  <text x="220" y="340" class="label-desc" text-anchor="middle">Web: 80 + Server: 10051</text>
+  
+  <circle cx="140" cy="370" r="6" fill="#00d4ff"/>
+  <text x="160" y="375" class="label-desc">zabbix-server-mysql</text>
+  
+  <circle cx="140" cy="400" r="6" fill="#00d4ff"/>
+  <text x="160" y="405" class="label-desc">zabbix-web-nginx-mysql</text>
+  
+  <circle cx="140" cy="430" r="6" fill="#00d4ff"/>
+  <text x="160" y="435" class="label-desc">mysql</text>
+  
+  <!-- Arrow from Zabbix to Clients -->
+  <path d="M 360 330 L 420 330" class="arrow"/>
+  
+  <!-- Client Linux Box -->
+  <rect x="430" y="250" width="280" height="180" class="box-dark" rx="8"/>
+  <text x="570" y="280" class="label" text-anchor="middle">Client Linux</text>
+  
+  <rect x="450" y="295" width="240" height="3" fill="#0088ff"/>
+  
+  <text x="570" y="320" class="label-small" text-anchor="middle">Zabbix Agent</text>
+  <text x="570" y="340" class="label-desc" text-anchor="middle">IP: 3.218.178.131</text>
+  <text x="570" y="360" class="label-desc" text-anchor="middle">Agent: 10050</text>
+  
+  <circle cx="480" cy="390" r="6" fill="#00d4ff"/>
+  <text x="500" y="395" class="label-desc">Ubuntu Server</text>
+  
+  <circle cx="480" cy="420" r="6" fill="#00d4ff"/>
+  <text x="500" y="425" class="label-desc">CPU, RAM, Disk</text>
+  
+  <circle cx="480" cy="450" r="6" fill="#00d4ff"/>
+  <text x="500" y="455" class="label-desc">Network Metrics</text>
+  
+  <!-- Arrow from Client Linux to Windows -->
+  <path d="M 710 330 L 770 330" class="arrow"/>
+  
+  <!-- Client Windows Box -->
+  <rect x="780" y="250" width="280" height="180" class="box-dark" rx="8"/>
+  <text x="920" y="280" class="label" text-anchor="middle">Client Windows</text>
+  
+  <rect x="800" y="295" width="240" height="3" fill="#0088ff"/>
+  
+  <text x="920" y="320" class="label-small" text-anchor="middle">Zabbix Agent</text>
+  <text x="920" y="340" class="label-desc" text-anchor="middle">IP: 44.216.92.137</text>
+  <text x="920" y="360" class="label-desc" text-anchor="middle">Agent: 10050</text>
+  
+  <circle cx="830" cy="390" r="6" fill="#00d4ff"/>
+  <text x="850" y="395" class="label-desc">Windows Server</text>
+  
+  <circle cx="830" cy="420" r="6" fill="#00d4ff"/>
+  <text x="850" y="425" class="label-desc">Performance</text>
+  
+  <circle cx="830" cy="450" r="6" fill="#00d4ff"/>
+  <text x="850" y="455" class="label-desc">System Metrics</text>
+  
+  <!-- Communication arrows (bidirectional) -->
+  <!-- Server to Linux -->
+  <path d="M 360 310 Q 395 300 430 310" class="arrow" stroke-dasharray="5,5"/>
+  <path d="M 430 350 Q 395 360 360 350" class="arrow" stroke-dasharray="5,5"/>
+  
+  <!-- Server to Windows -->
+  <path d="M 360 350 Q 570 320 780 310" class="arrow" stroke-dasharray="5,5"/>
+  <path d="M 780 350 Q 570 380 360 370" class="arrow" stroke-dasharray="5,5"/>
+  
+  <!-- Data collection info -->
+  <rect x="80" y="470" width="1020" height="140" class="box" rx="8"/>
+  
+  <text x="100" y="495" class="label">📊 Collecte des données</text>
+  
+  <g>
+    <circle cx="120" cy="530" r="5" fill="#00d4ff"/>
+    <text x="140" y="535" class="label-small">Agents Zabbix (port 10050) envoient les métriques</text>
+    
+    <circle cx="120" cy="560" r="5" fill="#00d4ff"/>
+    <text x="140" y="565" class="label-small">Serveur Zabbix (port 10051) reçoit et traite les données</text>
+    
+    <circle cx="120" cy="590" r="5" fill="#00d4ff"/>
+    <text x="140" y="595" class="label-small">Interface Web accessible via HTTP (port 80) à 100.49.103.108</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="600" y="670" class="label-desc" text-anchor="middle">Projet 2025/2026 — Supervision centralisée (AWS) — Zabbix en conteneurs</text>
+</svg>

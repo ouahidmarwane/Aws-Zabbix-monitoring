@@ -6,6 +6,14 @@
 
 ---
 
+## Architecture générale
+
+![Architecture Infrastructure Cloud](images/architecture-diagram.svg)
+
+*Architecture de supervision centralisée avec déploiement Zabbix conteneurisé*
+
+---
+
 ## 1. Introduction
 
 Dans le cadre de ce projet, l'objectif est de mettre en place une solution de supervision centralisée permettant de surveiller des machines Linux et Windows à l'aide de Zabbix, déployé sur une infrastructure cloud AWS.
