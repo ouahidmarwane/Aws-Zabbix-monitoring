@@ -5,6 +5,7 @@
 **Année :** 2025/2026
 
 ---
+<img width="1536" height="1024" alt="ChatGPT Image 5 janv  2026, 03_00_13" src="https://github.com/user-attachments/assets/4fef3116-0463-4372-800c-58cc6c710960" />
 
 ## 1. Introduction
 
