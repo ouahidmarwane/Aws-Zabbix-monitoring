@@ -114,21 +114,26 @@ Une Internet Gateway a été créée et attachée au VPC afin de permettre l'acc
 
 *Figure 4 : Les instances*
 
+
 ### Figure 5 : Groupe de sécurité Zabbix server
 
-![Security Group Zabbix](images/groupe%20security%20pour%20Zabbix.png)
+<img width="1831" height="873" alt="security groupe zabbix" src="https://github.com/user-attachments/assets/97b9cad5-d16f-4b9d-97b0-6874965b09d1" />
+
+
 
 *Figure 5 : Groupe de sécurité Zabbix server*
 
 ### Figure 6 : Groupe de sécurité Client Linux
 
-![Security Group Linux](images/groupe%20security%20pour%20Zabbix.png)
+<img width="1845" height="823" alt="security groupe linux" src="https://github.com/user-attachments/assets/44fe4023-c1f2-4306-8360-ee9af2825e31" />
+
 
 *Figure 6 : Groupe de sécurité Client Linux*
 
 ### Figure 7 : Groupe de sécurité Client Windows
 
-![Security Group Windows](images/groupe%20security%20pour%20Zabbix.png)
+
+<img width="1833" height="827" alt="security groupe windows" src="https://github.com/user-attachments/assets/5a034d4c-e0dd-4a95-b669-837f7867b91a" />
 
 *Figure 7 : Groupe de sécurité Client Windows*
 
