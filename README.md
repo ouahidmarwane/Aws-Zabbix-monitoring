@@ -240,12 +240,13 @@ Paramètres clés :
 <img width="1911" height="1076" alt="installation de zabbix agent" src="https://github.com/user-attachments/assets/ff7dd26d-67b7-469b-90df-299177ca0e37" />
 
 
+<img width="1689" height="869" alt="Capture d’écran 2026-01-05 024028" src="https://github.com/user-attachments/assets/c7ed33c0-46d6-47fa-8842-7fe29ad30952" />
 *Figure 14 : Configuration IP du serveur Zabbix sur Client Windows*
 
 
 je l'ai changer apres l'activation de IP elastique :100.49.103.108
 
-<img width="605" height="340" alt="insertion ip serveur zabbix" src="https://github.com/user-attachments/assets/65727198-32e0-4cc0-ba59-1c85beb51753" />
+
 
 
 ---
