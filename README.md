@@ -236,6 +236,8 @@ Paramètres clés :
 
 
 *Figure 14 : Configuration IP du serveur Zabbix sur Client Windows*
+
+
 je l'ai changer apres l'activation de IP elastique :100.49.103.108
 
 ---
