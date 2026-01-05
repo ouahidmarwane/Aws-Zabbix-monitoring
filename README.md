@@ -122,21 +122,26 @@ Une Internet Gateway a été créée et attachée au VPC afin de permettre l'acc
 
 *Figure 4 : Les instances*
 
+
 ### Figure 5 : Groupe de sécurité Zabbix server
 
-![Security Group Zabbix](images/groupe%20security%20pour%20Zabbix.png)
+<img width="1831" height="873" alt="security groupe zabbix" src="https://github.com/user-attachments/assets/97b9cad5-d16f-4b9d-97b0-6874965b09d1" />
+
+
 
 *Figure 5 : Groupe de sécurité Zabbix server*
 
 ### Figure 6 : Groupe de sécurité Client Linux
 
-![Security Group Linux](images/groupe%20security%20pour%20Zabbix.png)
+<img width="1845" height="823" alt="security groupe linux" src="https://github.com/user-attachments/assets/44fe4023-c1f2-4306-8360-ee9af2825e31" />
+
 
 *Figure 6 : Groupe de sécurité Client Linux*
 
 ### Figure 7 : Groupe de sécurité Client Windows
 
-![Security Group Windows](images/groupe%20security%20pour%20Zabbix.png)
+
+<img width="1833" height="827" alt="security groupe windows" src="https://github.com/user-attachments/assets/5a034d4c-e0dd-4a95-b669-837f7867b91a" />
 
 *Figure 7 : Groupe de sécurité Client Windows*
 
@@ -177,8 +182,9 @@ sudo docker-compose up -d
 ```
 
 ### Figure 10 : Résultat de docker ps
+<img width="1744" height="117" alt="docker start" src="https://github.com/user-attachments/assets/bd3ea903-c6ac-4474-996f-cd7342345869" />
 
-![Docker PS](images/cmd_verfication%20de%20l%27installation%20de%20docker%20.png)
+
 
 *Figure 10 : Résultat de docker ps montrant les conteneurs actifs*
 
@@ -217,7 +223,8 @@ Paramètres clés :
 
 ### Figure 12 : Service agent actif
 
-![Linux Agent](images/installation%20de%20zabbix%20agent.png)
+<img width="1840" height="873" alt="cmd final client linux" src="https://github.com/user-attachments/assets/80c8f6ba-7acf-4979-a120-d37329444e96" />
+
 
 *Figure 12 : Service actif (systemctl status zabbix-agent)*
 
@@ -238,10 +245,17 @@ Paramètres clés :
 *Figure 13 : Connexion RDP au client Windows*
 
 ### Figure 14 : Insertion de l'IP du serveur Zabbix
+<img width="1911" height="1076" alt="installation de zabbix agent" src="https://github.com/user-attachments/assets/ff7dd26d-67b7-469b-90df-299177ca0e37" />
 
-![Windows Agent Config](images/rdp%20windows%20client.png)
 
+<img width="1689" height="869" alt="Capture d’écran 2026-01-05 024028" src="https://github.com/user-attachments/assets/c7ed33c0-46d6-47fa-8842-7fe29ad30952" />
 *Figure 14 : Configuration IP du serveur Zabbix sur Client Windows*
+
+
+je l'ai changer apres l'activation de IP elastique :100.49.103.108
+
+
+
 
 ---
 
@@ -249,7 +263,8 @@ Paramètres clés :
 
 ### Figure 15 : Hôtes Zabbix
 
-![Zabbix Hosts](images/zabbix%20interface.png)
+<img width="605" height="307" alt="hotes zabbix" src="https://github.com/user-attachments/assets/ac5d216e-5578-47ee-a67d-01867a113eb0" />
+
 
 *Figure 15 : Interface de création des hôtes dans Zabbix*
 
