@@ -200,8 +200,9 @@ http://100.49.103.108:80
 ```
 
 ### Figure 11 : Interface Zabbix
+<img width="1833" height="979" alt="Dashboard zabbix" src="https://github.com/user-attachments/assets/a9fad90a-e31c-48f9-97bd-f92edcac20f5" />
 
-![Zabbix Interface](images/zabbix%20interface.png)
+
 
 *Figure 11 : Interface Zabbix*
 
@@ -264,7 +265,8 @@ je l'ai changer apres l'activation du IP elastique:100.49.103.108
 
 ### Figure 15 : Hôtes Zabbix
 
-![Zabbix Hosts](images/zabbix%20interface.png)
+<img width="1839" height="980" alt="hosts" src="https://github.com/user-attachments/assets/ff5a4c16-3779-4313-89cc-15cd2ac986b3" />
+
 
 *Figure 15 : Interface de création des hôtes dans Zabbix*
 
