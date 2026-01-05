@@ -240,13 +240,17 @@ Paramètres clés :
 
 je l'ai changer apres l'activation de IP elastique :100.49.103.108
 
+<img width="605" height="340" alt="insertion ip serveur zabbix" src="https://github.com/user-attachments/assets/65727198-32e0-4cc0-ba59-1c85beb51753" />
+
+
 ---
 
 ## 9. Interface Zabbix - Création des hôtes
 
 ### Figure 15 : Hôtes Zabbix
 
-![Zabbix Hosts](images/zabbix%20interface.png)
+<img width="605" height="307" alt="hotes zabbix" src="https://github.com/user-attachments/assets/ac5d216e-5578-47ee-a67d-01867a113eb0" />
+
 
 *Figure 15 : Interface de création des hôtes dans Zabbix*
 
