@@ -169,8 +169,9 @@ sudo docker-compose up -d
 ```
 
 ### Figure 10 : Résultat de docker ps
+<img width="1744" height="117" alt="docker start" src="https://github.com/user-attachments/assets/bd3ea903-c6ac-4474-996f-cd7342345869" />
 
-![Docker PS](images/cmd_verfication%20de%20l%27installation%20de%20docker%20.png)
+
 
 *Figure 10 : Résultat de docker ps montrant les conteneurs actifs*
 
@@ -209,7 +210,8 @@ Paramètres clés :
 
 ### Figure 12 : Service agent actif
 
-![Linux Agent](images/installation%20de%20zabbix%20agent.png)
+<img width="1840" height="873" alt="cmd final client linux" src="https://github.com/user-attachments/assets/80c8f6ba-7acf-4979-a120-d37329444e96" />
+
 
 *Figure 12 : Service actif (systemctl status zabbix-agent)*
 
@@ -230,10 +232,11 @@ Paramètres clés :
 *Figure 13 : Connexion RDP au client Windows*
 
 ### Figure 14 : Insertion de l'IP du serveur Zabbix
+<img width="1911" height="1076" alt="installation de zabbix agent" src="https://github.com/user-attachments/assets/ff7dd26d-67b7-469b-90df-299177ca0e37" />
 
-![Windows Agent Config](images/rdp%20windows%20client.png)
 
 *Figure 14 : Configuration IP du serveur Zabbix sur Client Windows*
+je l'ai changer apres l'activation de IP elastique :100.49.103.108
 
 ---
 
